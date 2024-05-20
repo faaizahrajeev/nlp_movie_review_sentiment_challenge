@@ -1,21 +1,22 @@
-# nlp_movie_review_sentiment_challenge
+# Movie Review Sentiment Challenge - NLP 2024
 
-challenge details:
+Challenge Details:
 
 Develop a text classification system to categorize movie reviews as positive or negative. 
-Instructions:
+
+## Instructions:
 • Employ regular expressions to clean the text data and perform text normalization techniques
-• Construct N-grams from the text data. Discuss the choice of N-grams for feature extraction.
-• Implement a Naive Bayes classifier to categorize the reviews. Optimize the classifier for better performance in sentiment analysis.
-• Evaluate the classifier using metrics such as precision, recall, and F-measure. Perform cross-validation to assess the model’s robustness.
-• Represent text data using Vector Semantics or word embeddings. Use cosine similarity to compare vectors and refine feature representation.
-• Integrate neural networks or pretrained word embeddings into the model to enhance classification performance.
+<br>• Construct N-grams from the text data. Discuss the choice of N-grams for feature extraction.
+<br>• Implement a Naive Bayes classifier to categorize the reviews. Optimize the classifier for better performance in sentiment analysis.
+<br>• Evaluate the classifier using metrics such as precision, recall, and F-measure. Perform cross-validation to assess the model’s robustness.
+<br>• Represent text data using Vector Semantics or word embeddings. Use cosine similarity to compare vectors and refine feature representation.
+<br>• Integrate neural networks or pretrained word embeddings into the model to enhance classification performance.
 
- Programming Language: Python
-• Libraries: NLTK, scikit-learn, TensorFlow/PyTorch (for neural networks), gensim (for word embeddings)
-• Environment: Jupyter Notebooks
+<br>Programming Language: Python
+<br>• Libraries: NLTK, scikit-learn, TensorFlow/PyTorch (for neural networks), gensim (for word embeddings)
+<br>• Environment: Jupyter Notebooks
 
-Sample Data for Training
-Review | Sentiment
-The movie was fantastic, I loved every minute of it! | Positive
-Terrible acting and a predictable plot, definitely not worth the watch. | Negative
+<br>Sample Data for Training
+<br>Review | Sentiment
+<br>The movie was fantastic, I loved every minute of it! | Positive
+<br>Terrible acting and a predictable plot, definitely not worth the watch. | Negative
